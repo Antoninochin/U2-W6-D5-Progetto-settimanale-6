@@ -1,0 +1,21 @@
+
+  @mixin tablet {
+    @media only screen and (min-width: $tablet) {
+      head{
+        width:100%
+      };
+      section{
+        width: 100%;
+      }
+    }
+  }
+  @mixin mobile {
+    @media only screen and (min-width: $tablet) {
+        head{
+            width:100%
+        }
+        section{
+            width:100%;
+        }
+    }
+}
