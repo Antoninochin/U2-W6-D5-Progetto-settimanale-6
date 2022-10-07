@@ -10784,7 +10784,12 @@ i {
 }
 
 .button {
+  background-color: black;
   border-radius: 50%;
   width: 15px;
   height: 15px;
+}
+
+nav {
+  width: 100%;
 }
