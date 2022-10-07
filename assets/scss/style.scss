@@ -1,0 +1,22 @@
+@import "./variables";
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "./mixins";
+
+ul{
+    margin-left: 70%;
+}
+
+i{
+    margin-right: 7px;
+}
+.i{
+    font-size: 30px;
+}
+.button{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+

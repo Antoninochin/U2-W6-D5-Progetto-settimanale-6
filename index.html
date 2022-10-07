@@ -5,9 +5,175 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Document</title>
+    <title>Il Mio Negozietto</title>
 </head>
 <body>
+    <head>
+        <nav class="navbar sticky-top navbar-expand-lg bg-primary bg-gradient">
+            <div class="container"> 
+              <a class="navbar-brand text-white i" href="#"><i class="fa-solid fa-ghost"></i></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#"><i class="fa-solid fa-igloo"></i>Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#"><i class="fa-sharp fa-solid fa-users-line"></i>About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#"><i class="fa-solid fa-address-book"></i>Contacts</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </head>
+    <section>
+        <div class="container mt-2">
+          <div class="row">
+            <div class="col-4">
+              <div id="list-example" class="list-group bg-secondary">
+                <p class="list-group-item list-group-item-action bg-success text-white" id="list-item-5">Best seller</p>
+                <a class="list-group-item list-group-item-action" href="#list-item-1">God Of War Ragnarok</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">Dragon Ball Kakarot</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">Elden Ring</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-4">Fifa23</a>
+              </div>
+            </div>
+             <div class="col-8 justify-content-flex-end">
+              <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                <h4 id="list-item-1"><img src="https://th.bing.com/th/id/OIP.FocTlm2OR9q0YhOrj9rHWQHaEK?pid=ImgDet&rs=1"></h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, nihil suscipit qui exercitationem quod modi tenetur repellat corrupti.</p>
+                <h4 id="list-item-2"><img src="https://www.clubplayerone.com/public/giochi/20200123IMG-20200123-WA0084.jpg"></h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, nihil suscipit qui exercitationem quod modi tenetur repellat corrupti.</p>
+                <h4 id="list-item-3"><img src="https://steamuserimages-a.akamaihd.net/ugc/1755821997101172297/6A7B1BFBB0BA268604E52784CF657D023EF9CA18/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"></h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, nihil suscipit qui exercitationem quod modi tenetur repellat corrupti.</p>
+                <h4 id="list-item-4"><img src="https://th.bing.com/th/id/R.5f97fa9615d163f5ff6e9f091e198c61?rik=dLXMM8vDW3zooQ&pid=ImgRaw&r=0"></h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, nihil suscipit qui exercitationem quod modi tenetur repellat corrupti.</p>
+              </div>
+            </div>
+          </div> 
+        </div>
+        <button class=" sticky-bottom border rounded-5 border-3 p-1 ps-2"><a href="#list-item-5"><i class="fa-solid fa-chevron-up i"></i></a></button>
+    </section>
+    <main>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Our Partenership:
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="container row  ">
+            <div class="accordion-body col-2">
+              <i class="fa-solid fa-headset i"></i>
+              <p>Partner1</p>
+            </div>
+            <div class="accordion-body col-2">
+              <i class="fa-solid fa-gamepad i"></i>
+              <p>Partner2</p>
+            </div>
+            <div class="accordion-body col-2">
+              <i class="fa-solid fa-dragon i"></i>
+              <p>Partner3</p>
+            </div>
+            <div class="accordion-body col-2">
+              <i class="fa-solid fa-shield-halved i"></i>
+              <p>Partner4</p>
+            </div>
+            <div class="accordion-body col-3">
+              <i class="fa-solid fa-hat-wizard i"></i>
+              <p>Partner5</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators bg-success ">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active button bg-dark" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="button bg-dark" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                    <div class="card " style="max-width: 540px;">
+                      <div class="row g-0">
+                        <div class="col-md-4">
+                          <img src="..." class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card " style="max-width: 540px;">
+                      <div class="row g-0">
+                        <div class="col-md-4">
+                          <img src="..." class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card " style="max-width: 540px;">
+                      <div class="row g-2">
+                        <div class="col-md-4">
+                          <img src="..." class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card " style="max-width: 540px;">
+                      <div class="row g-0">
+                        <div class="col-md-4">
+                          <img src="..." class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </main>
+    <footer class="mt-5 col bg-secondary text-center text-white">
+      <div><i class="fa-solid fa-ghost"></i>&copy;Production 2022</div>
+      <div><i class="fa-brands fa-facebook i"></i>
+           <i class="fa-brands fa-instagram i"></i>
+           <i class="fa-brands fa-twitch i"></i>
+           <i class="fa-brands fa-twitter i"></i>
+      </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/85d2f65af1.js" crossorigin="anonymous"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
