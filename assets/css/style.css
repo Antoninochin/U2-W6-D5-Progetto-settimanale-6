@@ -10771,6 +10771,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  width: 100%;
+}
+
 ul {
   margin-left: 70%;
 }
