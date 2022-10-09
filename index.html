@@ -21,10 +21,10 @@
                     <a class="nav-link active text-white" aria-current="page" href="#"><i class="fa-solid fa-igloo"></i>Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#"><i class="fa-sharp fa-solid fa-users-line"></i>AboutUs</a>
+                    <a class="nav-link text-white" href="#carouselExampleIndicators"><i class="fa-sharp fa-solid fa-users-line"></i>AboutUs</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#"><i class="fa-solid fa-address-book"></i>Contacts</a>
+                    <a class="nav-link text-white" href="#footer"><i class="fa-solid fa-address-book"></i>Contacts</a>
                   </li>
                 </ul>
               </div>
@@ -32,6 +32,7 @@
           </nav>
     </head>
     <section>
+      <button class=" sticky-top  border rounded-5 bg-dark text-white" onclick="clickHere()">Dark mode</button>
         <div class="container mt-2">
           <div class="row">
             <div class="col-4">
@@ -58,16 +59,17 @@
           </div> 
         </div>
         <button class=" sticky-bottom border rounded-5 border-3 p-1 ps-2"><a href="#list-item-5"><i class="fa-solid fa-chevron-up i"></i></a></button>
+        
     </section>
     <main>
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button class="accordion-button bg-primary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               Our Partenership:
             </button>
           </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div id="collapseOne" class="accordion-collapse collapse show bg-primary text-white" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="container row  ">
             <div class="accordion-body col-2">
               <i class="fa-solid fa-headset i"></i>
@@ -95,20 +97,20 @@
       </div>
 
       <div id="carouselExampleIndicators" class="carousel slide mt-5" data-bs-ride="true">
-        <div class="carousel-indicators">
+        <div class="carousel-indicators m-0">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bottone bg-secondary " aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bottone "aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bottone bg-primary"aria-label="Slide 2"></button>
         </div>
         <div class="carousel-inner ">
           <div class="carousel-item active">
             <div class="row d-flex justify-content-center">
-              <div class="card mb-3" style="max-width: 540px;">
+              <div class="card mb-3 mx-2" style="max-width: 540px;">
               <div class="row g-0">
                 <div class="col-md-4">
-                  <img src="https://picsum.photos/200" class="img-fluid rounded-start" alt="...">
+                  <img src="https://picsum.photos/220" class="img-fluid h-100" alt="...">
                 </div>
-                <div class="col-md-8">
-                  <div class="card-body">
+                <div class="col-md-8 ">
+                  <div class="card-body text-center bg-light">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -119,10 +121,10 @@
             <div class="card mb-3" style="max-width: 540px;">
               <div class="row g-0">
                 <div class="col-md-4">
-                  <img src="https://picsum.photos/200" class="img-fluid rounded-start" alt="...">
+                  <img src="https://picsum.photos/210" class="img-fluid h-100" alt="...">
                 </div>
-                <div class="col-md-8">
-                  <div class="card-body">
+                <div class="col-md-8 ">
+                  <div class="card-body text-center bg-light">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -134,13 +136,13 @@
           </div>
           <div class="carousel-item ">
             <div class="row d-flex justify-content-center">
-            <div class="card mb-3" style="max-width: 540px;">
+            <div class="card mb-3 mx-2" style="max-width: 540px;">
               <div class="row g-0">
                 <div class="col-md-4">
-                  <img src="https://picsum.photos/200" class="img-fluid rounded-start" alt="...">
+                  <img src="https://picsum.photos/200" class="img-fluid h-100" alt="...">
                 </div>
                 <div class="col-md-8">
-                  <div class="card-body">
+                  <div class="card-body text-center bg-light">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -151,10 +153,10 @@
             <div class="card mb-3" style="max-width: 540px;">
               <div class="row g-0">
                 <div class="col-md-4">
-                  <img src="https://picsum.photos/200" class="img-fluid rounded-start" alt="...">
+                  <img src="https://picsum.photos/230" class="img-fluid h-100" alt="...">
                 </div>
                 <div class="col-md-8">
-                  <div class="card-body">
+                  <div class="card-body bg-light text-center">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -176,15 +178,23 @@
       </div>
      
     </main>
-    <footer class="mt-5 col bg-secondary text-center text-white">
-      
-      <div><i class="fa-solid fa-ghost"></i>&copy;Production 2022</div>
-      <div><i class="fa-brands fa-facebook i"></i>
-           <i class="fa-brands fa-instagram i"></i>
-           <i class="fa-brands fa-twitch i"></i>
-           <i class="fa-brands fa-twitter i"></i>
+    <footer id="footer" class="mt-5 col bg-secondary text-center text-white">
+      <div class="row col-2 flex-nowrap">
+        <div><i class="fa-solid fa-ghost"></i>&copy;Production 2022; indirizzo: via esempio 2°</div>
+        <div>Iscriviti ai nostri canali social per rimanere sempre aggiornato:</div>
+      <div class="mt-5"><i class="fa-brands fa-facebook i text-primary"></i>
+           <i class="fa-brands fa-instagram i text-warning"></i>
+           <i class="fa-brands fa-twitch i text-dark"></i>
+           <i class="fa-brands fa-twitter i text-info"></i>
       </div>
+      <div>
+        <p>O per maggiori informazioni contattaci su whatsapp o telegram:</p>
+      </div>
+      <div class="mt-5"><i class="fa-brands fa-whatsapp i text-success"></i>
+        <i class="fa-brands fa-telegram i text-primary"></i></div>
+    </div>
     </footer>
+    <script src="./assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/85d2f65af1.js" crossorigin="anonymous"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

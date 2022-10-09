@@ -10771,8 +10771,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
-  width: 100%;
+head, body, .card, .accordion {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
 }
 
 ul {
@@ -10791,8 +10797,4 @@ i {
   border-radius: 50%;
   width: 20px;
   height: 20px;
-}
-
-nav {
-  width: 100%;
 }
